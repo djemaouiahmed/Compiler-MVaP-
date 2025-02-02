@@ -29,7 +29,7 @@ Exécuter un test :
 ```sh
 grun Complexe start -gui
 ```
-###Tests
+##Tests
 Utiliser test.txt pour vérifier le bon fonctionnement du compilateur :
 ```txt
 complexe z;
@@ -38,15 +38,16 @@ afficher(z);
 z = z ** 2;
 afficher(z);
 ```
-###resultat:
+##resultat:
 ```terminal
 3.0 + 4.0i
 -7.0 + 24.0i
 ```
-###Remarques
+##Remarques
 Assurez-vous que votre fichier Complexe.g4 est bien formatté.
 En cas d'erreur, vérifiez les messages d'erreur et corrigez la grammaire si nécessaire.
-###Auteur
+
+##Auteur
 Nom : Djemaoui Ahmed
 Projet : Compilateur ANTLR4 pour le langage Complexe
 Année : 2024-2025
